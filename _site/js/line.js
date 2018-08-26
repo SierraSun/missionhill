@@ -62,8 +62,8 @@ option = {
 
     },
     grid:{
-      x:65
-
+      x:65,
+      width:"80%"
     },
     series: {
         type: 'line',
