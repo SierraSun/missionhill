@@ -1,13 +1,4 @@
 var dom = document.getElementById("chart1");
-
-var resizeWorldMapContainer = function () {//用于使chart自适应高度和宽度,通过窗体高宽计算容器高宽
-    dom.style.width = 0.8*window.innerWidth+'px';
-    dom.style.height = 0.5*window.innerHeight+'px';
-};
-
-resizeWorldMapContainer();
-
-
 var myChart = echarts.init(dom);
 var app = {};
 
@@ -93,9 +84,3 @@ option = {
 if (option && typeof option === "object") {
     myChart.setOption(option, true);
 }
-
-window.onresize = function () {//用于使chart自适应高度和宽度
-
-    resizeWorldMapContainer();//重置容器高宽
-    myChart.resize();
-};
