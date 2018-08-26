@@ -47,7 +47,7 @@ option = {
         axisLabel: {
             rotate:40,
             textStyle: {
-               fontFamily:'BentonSansCond-regular'
+               fontFamily:'sans-serif'
                   }
           }
         },
@@ -56,14 +56,9 @@ option = {
         splitLine: {show: true},
         axisLabel: {
             textStyle: {
-               fontFamily:'BentonSansCond-regular'
+               fontFamily:'sans-serif'
                   }
           }
-
-    },
-    grid:{
-			width: '70%',
-      x:58
 
     },
     series: {
