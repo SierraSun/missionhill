@@ -61,6 +61,10 @@ option = {
           }
 
     },
+    grid:{
+      x:65
+
+    },
     series: {
         type: 'line',
         showAllSymbol: true,
