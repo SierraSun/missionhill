@@ -31,6 +31,7 @@ option = {
         left: 'center',
         text: 'Median Housing Price in Mission Hill',
         subtext:'1985-2018',
+
     },
     tooltip: {
         trigger: 'axis',
@@ -62,8 +63,8 @@ option = {
 
     },
     grid:{
-      x:65,
-      width:"80%"
+      x:70,
+      width:"70%"
     },
     series: {
         type: 'line',
