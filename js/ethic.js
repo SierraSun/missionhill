@@ -16,7 +16,7 @@ option = {
        padding:5
     },
     legend: {
-      y:60,
+      y:52,
         data: ['White', 'Black/ African American','Hispanic','Asian/PI','Other']
     },
     grid: {

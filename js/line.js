@@ -63,8 +63,9 @@ option = {
 
     },
     grid:{
-      x:70,
-      width:"70%"
+      width:"87%",
+      left:"8%",
+      right:"4%",
     },
     series: {
         type: 'line',
