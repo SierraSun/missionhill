@@ -48,7 +48,7 @@ setTimeout(function () {
           x:'20%'
         },
         series: [
-            {type: 'bar', smooth: true, seriesLayoutBy: 'row',itemStyle:{normal:{color:"#a7a09a94"}}},
+            {type: 'bar', smooth: true, seriesLayoutBy: 'row',itemStyle:{normal:{color:"#ccc8c4"}}},
             {type: 'bar', smooth: true, seriesLayoutBy: 'row',itemStyle:{normal:{color:"#e41b24"}}},
             {type: 'bar', smooth: true, seriesLayoutBy: 'row',itemStyle:{normal:{color:"#e85a24"}}},
             {type: 'bar', smooth: true, seriesLayoutBy: 'row',itemStyle:{normal:{color:"#f2a73b"}}},
@@ -79,7 +79,7 @@ setTimeout(function () {
                 }
             }
         ],
-        color:["#a7a09a94","#e41b24","#e85a24","#f2a73b","#701f1e"]
+        color:["#ccc8c4","#e41b24","#e85a24","#f2a73b","#701f1e"]
     };
 
     myChart.on('updateAxisPointer', function (event) {
